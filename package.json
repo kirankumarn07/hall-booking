@@ -1,0 +1,19 @@
+{
+  "name": "hall-booking-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoos": "^0.0.1-security",
+    "uniqid": "^5.4.0"
+  }
+}
