@@ -27,7 +27,9 @@ Our API provides several endpoints to cater to different needs:
 
 ## Documentation
 
-For a more detailed understanding of our API and its usage, please refer to our [![Postman Documentation](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/30449072/2s9YeK2pLb).
+For a more detailed understanding of our API and its usage, please refer to our Postman Documentation.
+
+[![Postman Documentation](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/30449072/2s9YeK2pLb).
 
 ## Acknowledgements
 
