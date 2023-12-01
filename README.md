@@ -1,32 +1,34 @@
-
 # Hall Booking App API
 
-The Hall Booking App API manages room creation, booking, and customer details within a hall or conference center.
+The Hall Booking App API is a comprehensive solution for managing room creation, booking, and customer details within a hall or conference center. This API is designed to streamline the process of room booking and ensure a seamless user experience.
 
-## Usage
+## Getting Started
 
-API server: https://hall-booking-api-lubb.onrender.com
+Our API server is hosted at: `https://hall-booking-api-lubb.onrender.com`
 
 ## API Endpoints
 
-Create Room (POST):
-Endpoint: /room/createRoom
+Our API provides several endpoints to cater to different needs:
 
-Book Room (POST):
-Endpoint: /room/bookRoom
+1. **Create Room (POST)**: This endpoint allows you to create a new room.
+   - Endpoint: `/room/createRoom`
 
-Get All Booked Rooms (GET):
-Endpoint: /room/allBookedRoom
+2. **Book Room (POST)**: This endpoint enables users to book a room.
+   - Endpoint: `/room/bookRoom`
 
-Get List of Customers (GET):
-Endpoint: /room/listCustomers
+3. **Get All Booked Rooms (GET)**: Retrieve a list of all booked rooms through this endpoint.
+   - Endpoint: `/room/allBookedRoom`
 
-Booking History (GET):
-Endpoint: /room/customerBookingHistory/:customerName
+4. **Get List of Customers (GET)**: This endpoint provides a list of all customers.
+   - Endpoint: `/room/listCustomers`
+
+5. **Booking History (GET)**: Get a customer's booking history with this endpoint.
+   - Endpoint: `/room/customerBookingHistory/:customerName`
 
 ## Documentation
-For detailed API documentation, refer to the [Postman Documentation](https://documenter.getpostman.com/view/30449072/2s9YeK2pLb).
 
-## Task Completed for Guvi
+For a more detailed understanding of our API and its usage, please refer to our [![Postman Documentation](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/30449072/2s9YeK2pLb).
 
-This project fulfills the task assigned by Guvi. Ensure you have followed the requirements provided by Guvi in completing and submitting this task.
+## Acknowledgements
+
+This project was completed as part of a task assigned by Guvi. We have adhered to all the requirements provided by Guvi in the completion and submission of this task.
