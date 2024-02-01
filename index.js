@@ -6,7 +6,7 @@ import AppRouter from "./routes/router.js";
 dotenv.config();
 const app = express();
 app.use(express.json());
-const PORT = Number(process.env.PORT) || 8000;
+const PORT = Number(process.env.PORT) || 8001;
 
 app.use("/", AppRouter);
 
