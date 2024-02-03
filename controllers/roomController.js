@@ -12,12 +12,17 @@ const createRoom = (req, res) => {
     amenities,
     pricePerHour,
   };
+  console.log(`creating a room payload : ${JSON.stringify(room)}`)
   rooms.push(room);
+  console.log(`list of rooms : ${JSON.stringify(rooms)}`)
+  console.log({ success: true, room })
   res.json({ success: true, room });
+ 
 };
 
 const bookRoom = (req, res) => {
   const { customerName, date, startTime, endTime, roomId } = req.body;
+  console.log(`book a room payload: ${JSON.stringify(req.body)}`)
   const room = rooms.find((r) => r.roomId === roomId);
   if (!room) {
     return res.status(404).json({ success: false, message: "Room not found" });
@@ -32,7 +37,9 @@ const bookRoom = (req, res) => {
     bookingDate: new Date(),
     status: "Booked",
   };
+  console.log(`booking data: ${JSON.stringify(booking)}`)
   bookings.push(booking);
+  console.log(`list of bookings:${JSON.stringify(booking)}`)
   res.json({ success: true, booking });
 };
 
